@@ -22,14 +22,19 @@ body {
 }
 
 .robot-body {
+  position: relative;
   width: 320px;
 }
 
 .robot-brain {
+  position: absolute;
+  top: 0;
   width: 46px;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  top: 0;
 }
